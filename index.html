@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Rock Paper Scissors</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <script src="myscripts.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/icon-x" href="assets/page-icon.ico">
+    <script src="myscripts.js" defer></script>
+</head>
+<body>
+    
+    <header>
+        <h1 id="header-title">ROCK PAPER SCISSORS</h1>
+    </header>
+    <main id="main">
+        <section id="info">
+            <p class="conclusion">
+                Choose your weapon
+            </p>
+            <p class="gameEvent">
+                First to 5 is winner of the game!
+            </p>
+        </section>
+        <section id="choices-result">
+            <div class="choices-player">
+                <p class="choices-player-icon">
+                    ❔
+                </p>
+                <p class="player-score">
+                    Player : <span class="player-score-span">0</span>
+                </p>
+            </div>
+            <div class="choices-computer">
+                <p class="choices-computer-icon">
+                    ❔
+                </p>
+                <p class="computer-score">
+                    Computer : <span class="computer-score-span">0</span>
+                </p>
+            </div>
+        </section>
+        <section id="player-choice">
+            <button class="rock" id="rock">
+                ✊
+            </button>
+            <button class="paper" id="paper">
+                ✋
+            </button>
+            <button class="scissors" id="scissors">
+                ✌️
+            </button>
+        </section>
+    </main>
+    <footer>
+        <footer id="footer">Copyright right here</footer>
+    </footer>
+</body>
 </html>
